@@ -25,3 +25,5 @@ def test_aceita_email_valido():
 
 def test_rejeita_email_sem_arroba():
     assert validar_email("semarroba.com") is False
+
+
